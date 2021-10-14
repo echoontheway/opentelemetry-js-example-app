@@ -3,25 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- 将 traceparent 注入到 meta 标签中，以便和初次的 HTML 请求串联在一起 -->
-    <meta name="traceparent" content="<%= traceparent %>">
     <title>OpenTelemetry JS Example App</title>
-    <style>
-      h1 {
-        color: green;
-      }
-      body {
-        text-align: center;
-        margin: auto;
-      }
-    </style>
   </head>
   <body>
-    <h1>Hello</h1>
-
-    <hr>
-
-    <button id="query-button">press</button>
+    <button id="query-button">Press Me</button>
 
     <script type="module" src="/client.ts"></script>
   </body>
