@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": false,
   "scripts": {
-    "dev": "vite",
+    "serve": "vite preview",
     "build": "tsc -p tsconfig.client.json && vite build"
   },
   "dependencies": {

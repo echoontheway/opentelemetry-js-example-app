@@ -7,8 +7,11 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
-    minify: false,  // set false to see what is packed into the bundle
+    minify: false,  // set false to analyze what is packed into the bundle
   },
   plugins:[ visualizer() ],
+  resolve:{
+    mainFields:["browser", "esm2015", "module", "main"] // set the field when enable esm2015 entry point
+  }
 });
 

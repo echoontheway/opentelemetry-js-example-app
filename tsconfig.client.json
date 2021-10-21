@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ES2015"],
+    "module": "es6",
+    "target": "es6",
     "noEmit": true,
-    "target": "ESNext"
   },
   "include": ["./client"]
 }
