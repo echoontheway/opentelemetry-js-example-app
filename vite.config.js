@@ -7,8 +7,7 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
-    minify: false,  // set false to see what is packed into the bundle
+    minify: false, // set false to see what is packed into the bundle
   },
-  plugins:[ visualizer() ],
+  plugins: [visualizer()],
 });
-
